@@ -1191,6 +1191,38 @@
         position: left;
         margin-right: 10px;
     }
+
+/* ARASAKA × SPARXIE — GLASS CATEGORY & ROLE HEADERS */
+
+/* Kategori channel: GENERAL, CLASS, dan lainnya */
+#app-mount .containerDefault__29444 {
+    background: rgba(12, 8, 12, 0.38) !important;
+    border: 1px solid rgba(255, 35, 55, 0.28);
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+    transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+/* Efek hover kategori */
+#app-mount .containerDefault__29444:hover {
+    background: rgba(100, 0, 12, 0.48) !important;
+    border-color: rgba(255, 35, 55, 0.65);
+}
+
+/* Header role member: KEPSEK, STAFF, dan lainnya */
+#app-mount .membersGroup_c8ffbb {
+    background: rgba(12, 8, 12, 0.40) !important;
+    border: 1px solid rgba(255, 35, 55, 0.38) !important;
+    border-radius: 8px;
+    backdrop-filter: blur(8px);
+    box-sizing: border-box;
+}
+
+/* Teks role tetap putih dan jelas */
+#app-mount .membersGroup_c8ffbb span {
+    color: rgba(255, 255, 255, 0.94) !important;
+}
+
     #app-mount .title_c38106 {
         background-color: var(--secondary3-colour);
         border-bottom: 3px solid var(--primary3-colour)
